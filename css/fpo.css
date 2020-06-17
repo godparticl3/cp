@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding:0;
+}
+
+@font-face {
+	font-family: 'FuturaNewMedium';
+	src: url("../font/FuturaNewMedium.otf");
+	font-style: normal;
+	font-weight: 100;
+}
+
+.landing-page{
+	background-image: url("../images/Background-element.png"), url("../images/Background-element-2.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: -30% -400px, 130% 300px;
+	background-size: 700px;
+	background-color: #D6DAF2;
+	height: 100vh;
+	display: flex;
+	width: 100%;
+}
+
+.landing-page-text{
+	flex:1;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+.landing-page-text-header{
+	width: 60%;
+	font-family: Futura, Arial, sans-serif;
+	font-weight: 1000;
+	letter-spacing: 0.001em;
+	font-size: 48px;
+	color: #54575a;
+	line-height: 1em;
+}
+
+.landing-page-text-para{
+	width: 60%;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #54575a;
+	line-height: 1em;
+	padding-top: 25px;
+}
+
+.landing-page-image{
+	padding-right:100px; 
+	padding-top:80px;
+	flex:1;
+}
+
+.landing-page-image img{
+	width: 600px;
+
+}
+
+
+.buyer-page{
+	background-color: #f7f8fc;
+	background-image: url("../images/Background-element.png"), url("../images/Background-element.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: -40% 50px, 130% 1300px;
+	background-size: 700px;
+}
+
+
+.crop_portfolio{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.crop_portfolio-header,.executive-team,.supported-by{
+	font-family: Futura, Arial, sans-serif;
+	font-weight: 1000;
+	letter-spacing: 0.001em;
+	font-size: 42px;
+	color: #54575a;
+	line-height: 2em;	
+	margin: auto;
+}
+
+.crop_portfolio-image{
+	margin: auto;
+}
+
+.crop_portfolio-image img{
+	width: 700px;
+}
+
+
+.crop_portfolio-para{
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+	margin-left: 250px;
+	margin-right: 250px;
+	text-align: justify;
+	padding-bottom: 50px;
+
+}
+
+
+.buyer{
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+
+.buyer-container{
+	display: flex;
+	align-items: center;
+}
+
+.buyer-container-text{
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+}
+
+.buyer-container-text p{
+	/*text-align: justify;*/
+	padding-left: 50px;
+}
+
+.buyer-container-image {
+	transform: translate(-50,0);
+}
+
+.mobile{
+	display: none!important;
+}
+
+.topnav-web{
+		display: flex!important;
+	}
+
+
+.rural-text-last{
+	font-family: FuturaNewMedium;
+	font-weight: 700;
+	letter-spacing: 0.001em;
+	font-size: 28px;
+	color: #54575a;
+	line-height: 1em;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-top: 80px;
+	text-align: justify;
+	padding-bottom: 50px;
+}	
+
+
+
+@media(max-width: 980px){
+
+	.landing-page{
+		flex-direction: column;
+		height: 95vh;
+		background-position: -200px -150px, 250px 750px;
+		background-size: 500px;
+	}
+
+
+	.landing-page-text{
+		text-align: center;
+		padding-top: 20px;
+		padding-left: 0px;
+	}
+
+	.landing-page-text-header{
+		font-size: 5vmax;
+		margin: auto;
+	}
+
+	.landing-page-text-para{
+		width: 80%;
+		padding-top: 20px;
+		margin: auto;
+	}
+
+
+	.landing-page-image{
+		padding-right:0px; 
+		padding-top:0px;
+	}
+
+	.landing-page-image img{
+		width: 100%;
+	}
+
+	.buyer-page{
+		background-position: -300px 100px, 300px 1500px;
+		background-size: 500px;
+	}
+
+
+	.crop_portfolio-header,.executive-team,.supported-by{
+		font-size: 4vmax;
+		line-height: 2em;
+	}
+
+
+
+
+
+	.crop_portfolio-para{
+		margin-left: 20px;
+		margin-right: 20px;	
+	}
+
+	.crop_portfolio-image img{
+		width: 100%;
+	}
+
+	
+
+	.buyer{
+		padding: 0;
+	}
+
+		
+	.buyer-container{
+		/*flex-direction: column;*/
+	}
+
+	.buyer-container-text p{
+		padding-left: 0;
+		font-size: 3vmax;
+		line-height: 1.1em;
+		text-align: left;
+	}
+
+	.mobile{
+		display: block!important;
+	}
+
+	.topnav-web{
+		display: none!important;
+	}
+
+
+	.rural-text-last{
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+}

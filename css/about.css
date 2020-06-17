@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: 'FuturaNewMedium';
+	src: url("../font/FuturaNewMedium.otf");
+	font-style: normal;
+	font-weight: 100;
+}
+
+
+
+#about {
+	padding-top: 100px!important;
+}
+
+.what-container{
+	
+	display: flex;	
+	justify-content: space-around;
+	
+}
+
+.what-container img{
+	width: 250px;
+}
+
+.what-title{
+	text-align: center;
+	width: 100%;
+	font-family: Futura, Arial, sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.001em;
+	font-size: 42px;
+	color: #54575a;
+	line-height: 1em;
+}
+
+
+.executive-team,.supported-by{
+		text-align: center;
+	}
+
+.executive-team-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/*padding-left: 220px;
+	padding-right: 220px;*/
+}
+
+.about-2{
+
+}
+
+.supported-by-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.supported-by-image img{
+	width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 980px){
+	.landing-page{
+		height: 90vh;
+	}
+
+	.landing-page-text-header{
+		font-size: 4.5vmax;
+	}
+
+	#about {
+		padding-top: 20px!important;
+	}
+
+
+		.executive-team,.supported-by{
+		text-align: center;
+	}
+
+	.executive-team-image{
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
+
+	.executive-team-image img{
+		width: 90%;
+	}
+
+
+	.supported-by-image{
+		flex-direction: column;
+		padding-top: 20px;
+		
+	}	
+
+	.supported-by-image img{
+		padding-bottom: 20px;
+	}	
+
+}

@@ -1,0 +1,300 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0;
+	padding:0;
+}
+
+@font-face {
+	font-family: 'FuturaNewMedium';
+	src: url("../font/FuturaNewMedium.otf");
+	font-style: normal;
+	font-weight: 100;
+}
+
+.landing-page{
+	background-image: url("../images/Background-element.png"), url("../images/Background-element-2.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: -30% -400px, 130% 300px;
+	background-size: 700px;
+	background-color: #D6DAF2;
+	height: 100vh;
+	display: flex;
+	width: 100%;
+}
+
+.landing-page-text{
+	flex:1;
+	padding-left: 100px;
+	padding-top: 150px;
+}
+
+.landing-page-text-header{
+	width: 60%;
+	font-family: Futura, Arial, sans-serif;
+	font-weight: 1000;
+	letter-spacing: 0.001em;
+	font-size: 48px;
+	color: #54575a;
+	line-height: 1em;
+}
+
+.landing-page-text-para{
+	width: 60%;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #54575a;
+	line-height: 1.4em;
+	padding-top: 25px;
+}
+
+.landing-page-image{
+	padding-right:150px; 
+	padding-top:40px;
+	flex:1;
+}
+
+.landing-page-image img{
+	width: 500px;
+
+}
+
+.fpo-page{
+	margin: 0px;
+	background-color: #f7f8fc;
+	background-image: url("../images/Background-element.png"), url("../images/Background-element.png"), url("../images/Background-element.png");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: -55% 400px, 150% 1800px, -55% 2200px;
+	background-size: 700px;
+} 
+
+
+
+.rural-text{
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+	margin-left: 240px;
+	margin-right: 240px;
+	padding-top: 40px;
+	text-align: justify;
+	padding-bottom: 50px;
+
+}
+
+.fpo-container-1, .fpo-container-2{
+	display: flex;
+	align-items: center;
+	margin-left: 200px;
+	margin-right: 130px;
+}
+
+.fpo-text,.fpo-text-2{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.fpo-text{
+	padding-left: 40px;
+}
+
+.fpo-text-2{
+	padding-right: 40px;
+	direction: rtl;
+	order: 2;
+	text-align: right;
+}
+
+
+.fpo-title{
+	width: 100%;
+	font-family: FuturaNewMedium;
+	font-weight: 900;
+	letter-spacing: 0.001em;
+	font-size: 36px;
+	color: #54575a;
+	line-height: 1em;	
+}
+
+.fpo-description{
+	width: 90%;
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+	padding-top: 20px;
+}
+
+.fpo-description-1{
+	width: 90%;
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+	padding-top: 20px;
+}
+
+
+.fpo-image,.fpo-image-2{
+	width: 280px;
+}
+
+.fpo-image{
+	margin-left: 60px;
+}
+
+.fpo-image-2{
+	margin-right: 60px;
+	order: 1;
+}
+
+.fpo-image img, .fpo-image-2 img{
+	width: 100%;
+}
+
+
+
+.rural-text-last{
+	font-family: FuturaNewMedium;
+	font-weight: 700;
+	letter-spacing: 0.001em;
+	font-size: 28px;
+	color: #54575a;
+	line-height: 1em;
+	margin-left: 240px;
+	margin-right: 240px;
+	padding-top: 80px;
+	text-align: justify;
+	padding-bottom: 50px;
+}
+
+.mobile{
+	display: none!important;
+}
+
+.topnav-web{
+		display: flex!important;
+	}
+
+@media(max-width: 980px){
+
+	.landing-page{
+		flex-direction: column;
+		height: 100vh;
+		background-position: -200px -150px, 250px 750px;
+		background-size: 500px;
+	}
+
+	.landing-page-text{
+		text-align: center;
+		padding-left: 0px;
+		padding-top: 50px;
+	}
+	.landing-page-text-header{
+		font-size: 5vmax;
+		margin: auto;
+	}
+
+	.landing-page-text-para{
+		width: 80%;
+		margin-top: 0px;
+		margin: auto;
+	}
+
+	.landing-page-image{
+		padding: 0 25px 15px 0;
+
+	}
+
+	.landing-page-image img{
+		width: 100%;
+	}
+
+	.fpo-page{
+		background-position: -300px 100px, 300px 1500px,-300px 2200px;
+		background-size: 500px;
+	}
+
+	.rural-text{
+		padding-top: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.fpo-container-1,.fpo-container-2{
+		flex-direction: column;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.fpo-container-2{
+		flex-direction: column-reverse;
+	}
+
+	.fpo-title{
+		font-size: 5vmax;
+		padding-bottom: 20px;
+	}
+
+	.fpo-description{
+		width: 100%;
+	}
+
+	.fpo-description-1{
+		width: 100%;
+	}
+
+
+	.fpo-text{
+		width: 90%;
+		margin-left:0;
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	.fpo-text-2{
+		width: 90%;
+		direction: ltr;
+		text-align: center;
+		padding-right: 0px;
+	}
+
+	.fpo-image{
+		margin-left: 0px;
+		padding-bottom: 50px;
+	}
+
+	.fpo-image-2{
+		margin-right: 0px;	
+		padding-bottom: 50px;	
+	}
+
+	.rural-text-last{
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+		.mobile{
+		display: block!important;
+	}
+
+	.topnav-web{
+		display: none!important;
+	}
+
+}

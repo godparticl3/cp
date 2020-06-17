@@ -1,0 +1,408 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding:0;
+
+}
+
+@font-face {
+	font-family: 'FuturaNewMedium';
+	src: url("../font/FuturaNewMedium.otf");
+	font-style: normal;
+	font-weight: 100;
+}
+
+.landing-page{
+	background-image: url("../images/Background-element.png"), url("../images/Background-element-2.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: -40% -200px, 130% 300px;
+	background-size: 700px;
+	background-color: #D6DAF2;
+	height: 100vh;
+	display: flex;
+	width: 100%;
+}
+
+.landing-page-text{
+	direction: rtl;
+	flex:1;
+	order: 2;
+	padding-right: 100px;
+	padding-top: 100px;
+}
+
+.landing-page-text-header{
+	width: 70%;
+	font-family: Futura, Arial, sans-serif;
+	font-weight: 1000;
+	letter-spacing: 0.001em;
+	font-size: 48px;
+	color: #54575a;
+	line-height: 1em;
+}
+
+.landing-page-text-para{
+	width: 90%;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #54575a;
+	line-height: 1.4em;
+	padding-top: 25px;
+}
+
+.landing-page-image{
+	padding-left:150px; 
+	padding-top:40px;
+	flex:1;
+	order: 1;
+}
+
+.landing-page-image img{
+	width: 500px;
+
+}
+
+.fi-page{
+	margin: 0px;
+	background-color: #f7f8fc;
+	background-image: url("../images/Background-element.png"), url("../images/Background-element.png"), url("../images/Background-element.png"), url("../images/Background-element.png");
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: -55% 500px, 150% 1800px, -55% 2200px, 150% 3600px;
+	background-size: 700px;
+} 
+
+.finance-gap,.finance-ai{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.finance-gap-header,.finance-ai-header{
+	width: 80%;
+	text-align: center;
+	font-family: Futura, Arial, sans-serif;
+	font-weight: 1000;
+	letter-spacing: 0.001em;
+	font-size: 42px;
+	color: #54575a;
+	line-height: 2em;	
+	margin: auto;
+}
+
+.finance-ai-header{
+	padding-top: 50px;
+}
+
+
+.finance-gap-header p{
+	padding-top: 50px;
+}
+
+
+.finance-gap-image, .finance-ai-image{
+	margin: auto;
+	width: 80%;
+}
+
+.finance-ai-image{
+	padding-right: 120px;
+	padding-bottom: 50px;
+}
+
+.finance-gap-image img,.finance-ai-image img{
+	width: 100%;
+}
+
+.finance-ai-para, .finance-gap-para{
+	margin: auto;
+	width: 70%;
+	text-align: center;
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+	/*padding: 30px; */   
+
+}
+
+.value{
+	width: 85%;
+	margin:auto;
+	/*padding-left: 75px;*/
+	display: flex;
+}
+
+
+.buyer-container{
+	display: flex;
+	align-items: center;
+	height: 150px;
+}
+
+.buyer-container-text{
+	width: 70%;
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+
+}
+
+.buyer-container-text p{
+	/*text-align: justify;*/
+	/*padding-left: 50px;*/
+}
+
+.buyer-container-image {
+	transform: translate(-50,0);
+}
+
+
+
+.fpo-container-1, .fpo-container-2{
+	display: flex;
+	align-items: center;
+	margin-left: 140px;
+	margin-right: 120px;
+}
+
+.fpo-container-2{
+	padding-right: 30px;
+}
+
+.fpo-container-1{
+	padding-left: 80px;
+}
+
+.fpo-text,.fpo-text-2{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.fpo-text-2{
+	direction: rtl;
+	order: 2;
+	text-align: right;
+
+}
+
+
+.fpo-title{
+	width: 100%;
+	font-family: FuturaNewMedium;
+	font-weight: 900;
+	letter-spacing: 0.001em;
+	font-size: 36px;
+	color: #54575a;
+	line-height: 1em;	
+}
+
+.fpo-description{
+	width: 90%;
+	font-family: FuturaNewMedium;
+	font-weight: lighter;
+	letter-spacing: 0.001em;
+	font-size: 24px;
+	color: #8c8c8c;
+	line-height: 1em;
+	padding-top: 20px;
+}
+
+.fpo-image,.fpo-image-2{
+	width: 330px;
+}
+
+.fpo-image{
+	/*margin-left: -10px;*/
+}
+
+.fpo-image-2{
+	/*margin-right: 10px;*/
+	order: 1;
+}
+
+.fpo-image img, .fpo-image-2 img{
+	width: 100%;
+}
+
+.rural-text-last{
+	font-family: FuturaNewMedium;
+	font-weight: 700;
+	letter-spacing: 0.001em;
+	font-size: 28px;
+	color: #54575a;
+	line-height: 1em;
+	margin-left: 220px;
+	margin-right: 240px;
+	padding-top: 80px;
+	text-align: justify;
+	padding-bottom: 50px;
+}
+
+.mobile{
+	display: none!important;
+}
+
+.topnav-web{
+		display: flex!important;
+	}
+
+
+@media(max-width: 980px){
+
+
+	.landing-page{
+		flex-direction: column;
+		height: 100%;
+		background-position: -200px -150px, 250px 750px;
+		background-size: 500px;
+	}
+
+	.landing-page-text{
+		text-align: center;
+		direction: ltr;
+		order: 1;
+		padding-top: 20px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.landing-page-text-header{
+		font-size: 5vmax;
+		margin: auto;
+		width: 90%;
+	}
+
+	.landing-page-text-para{
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+		padding: 0px;
+	}
+
+	.landing-page-image{
+		order: 2;
+		padding-right:0px; 
+		padding-left:5px; 
+		margin-top: -30px;
+	}
+
+	.landing-page-image img{
+		width: 100%;
+	}
+
+	.value{
+		display: block;
+	}
+
+	.fi-page{
+		background-position: -300px 100px, 300px 1500px,-300px 2200px, 300px 3000px;
+		background-size: 500px;
+	}
+
+	.finance-gap-header,.finance-ai-header{
+		font-size: 4vmax;
+		line-height: 1.1em;
+		padding-bottom: 10px;
+		padding-top: 20px;
+	}
+
+	.finance-gap-header p{
+	padding-top: 30px;
+	}
+
+	.finance-gap-image, .finance-ai-image{
+		margin: 0;
+		width: 100%;
+		padding-right: 0px;
+	}
+
+	 .finance-ai-image img{
+	 	margin-left: -8%;
+	 }
+
+	.finance-ai-para, .finance-gap-para{
+		width: 100%;
+	}
+
+	.rural-text{
+		padding-top: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.fpo-container-1,.fpo-container-2{
+		flex-direction: column;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.fpo-container-1{
+		padding-left: 0px;
+	}
+
+	.fpo-container-2{
+		flex-direction: column-reverse;
+		padding-right: 0px;
+	}
+
+	.fpo-title{
+		font-size: 5vmax;
+	}
+
+	.fpo-text{
+		width: 100%;
+		font-size: 5vmax;
+		margin-left:0;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.fpo-text-2{
+		width: 100%;
+		font-size: 5vmax;	
+		direction: ltr;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.fpo-image{
+		margin-left: 0px;
+		padding-bottom: 50px;
+	}
+
+	.fpo-image-2{
+		margin-right: 0px;	
+		padding-bottom: 50px;	
+	}
+
+	.fpo-description{
+		width: 100%;
+	}
+
+	.rural-text-last{
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+		.mobile{
+		display: block!important;
+	}
+
+	.topnav-web{
+		display: none!important;
+	}
+
+}
