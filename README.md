@@ -1,1 +1,1 @@
-# cashplow
+# cashplow app
