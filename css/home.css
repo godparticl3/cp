@@ -1,7 +1,15 @@
 html {
   scroll-behavior: smooth;
 }
+.d-flex{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
 
+}
+a{
+	text-decoration: none;
+}
 body{
 	margin: 0;
 	padding:0;
