@@ -292,10 +292,14 @@ body{
 		display: flex!important;
 	}
 
-
+.gp{
+		width: 20rem;
+}
 @media(max-width: 980px){
 
-	
+	.gp{
+		width: 16rem;
+}
 	body{
 		max-width: 100vw;
 		overflow-x: hidden;
@@ -333,7 +337,7 @@ body{
 		padding-top: 0px;
 		padding-left: 10px;
 	}
-
+	
 	.landing-page-image img{
 		width: 100%;
 		padding-right: 0;
@@ -515,4 +519,7 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+  .gp{
+	  width: 3rem;
+  }
 }
